@@ -1,0 +1,168 @@
+
+*{
+     margin: 0;
+    padding: 0; 
+}
+.main-div{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+.logo{
+    background-color: blue;
+   
+}
+.logo img{
+    width: 120px;
+  
+}
+.logo h4{
+    color: #fff;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.Menu{
+    list-style-type: none;
+    text-align: left;
+    background:#4e4e4e;
+     min-height: 52px;
+     border-bottom: 5px solid orange;
+     border-top: 5px solid orange;
+     /* width: 831px; */
+     /* margin:auto; */
+    }
+    .Menu li{
+    display: inline-block;
+    margin-right: 8px;
+    border-left:1px solid #2e2e2e;
+    border-right:1px solid #000;
+    position: relative;
+    }
+    
+    .Menu li a{
+    text-decoration:none;
+    background: #4e4e4e;
+    padding: 15px 20px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    }
+    .Menu li a:hover{
+    background: orange;
+    }
+    .Menu li:last-child{
+    border-right:0px ;
+    }
+    .Menu li:first-child{
+    border-left:0px 
+    }
+     .Menu li ul{
+    list-style-type: none ;
+    padding: 0;
+    position: absolute;
+    left: -9999px;
+    top: 50px;
+    }
+    .Menu li ul li{
+    float: none;
+    border-left:none;
+    border-right:none;
+    border-top:1px solid #2e2e2e;
+    border-bottom:1px solid #000;
+    width: 155px;
+    position: relative;
+    
+    }
+    
+    .Menu li:hover ul{
+    left: 0;
+    } 
+    /* Sub Dropdown */
+    .Menu li ul li ul{
+    position: absolute;
+    top: -9999px;
+    
+    }
+    .Menu li ul li:hover ul{
+    top: 0;
+    }
+    .Menu li ul li ul li{
+    left: 155px;
+    }
+    .baner{
+        background-image: url(images/maxresdefault.jpg);
+        padding: 100px 0px;
+    }
+    button{
+        background: green;
+        padding: 10px 20px;
+    }
+    button a{
+        color: #fff;
+        text-decoration: none;
+        padding: 28px 0px;
+        
+    }
+    .servise{
+        background-color: #c7cbcf;
+    }
+    .baner p{
+        line-height: 25px;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .left{
+        width: 30%;
+        display: inline-block;
+    }
+     .left img{
+        width: 100%;
+    } 
+    img{
+        width: 20%;
+    }
+    .right{
+        width: 50%;
+        display: inline-block;
+    }
+    .footer ul li{
+       display: inline-block;
+      
+    }
+    .footer ul li a{
+        text-decoration: none;
+        padding-left: 20px;
+    }
+    .servis-2{
+        background-color: #4ab74a;
+    }
+    .img-2{
+        width: 28%;
+
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    .img-2 img{
+        width: 92%;
+    }
+    .info{
+        width: 50%;
+        display: inline-block;
+    }
+    .container{
+        width: 60%;
+        margin: auto;
+    }
+    p{
+        text-align: justify;
+    }
+    .servis-3{
+        background-color: #c7cbcf;
+    }
+    .servis-3 .img-2{
+    margin-left: 100px;
+    }
+   
